@@ -48,7 +48,7 @@ export default class Live2dComponent extends cc.Component {
             this.renderTexture.setFlipY(true)
 
             this._sprite = this.node.addComponent(cc.Sprite)
-            this._sprite.spriteFrame = new cc.SpriteFrame(this.renderTexture)
+            this._sprite.spriteFrame = new cc.SpriteFrame(this.renderTexture);
         }
 
         let gl = this.gl
